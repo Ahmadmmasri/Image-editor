@@ -1,0 +1,17 @@
+{
+    "name": "PetraCode-Image-Editor",
+    "short_name": "WebApp",
+    "description": "WebApp for PetraCode-Image-Generator",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#4CAF50",
+    "icons": [
+      {
+        "src": "/icons/logo-150.png",
+        "sizes": "150x150",
+        "type": "image/png"
+      }
+    ]
+  }
+  

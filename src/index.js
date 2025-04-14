@@ -9,6 +9,7 @@ import { Workspace } from 'polotno/canvas/workspace';
 import { Button, InputGroup, Icon } from '@blueprintjs/core';
 import '@blueprintjs/core/lib/css/blueprint.css';
 import { createStore } from 'polotno/model/store';
+import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 
 
 // Create the store
@@ -387,3 +388,4 @@ const App = ({ store }) => {
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<App store={store} />);
+serviceWorkerRegistration.register();
